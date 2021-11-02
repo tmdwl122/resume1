@@ -214,13 +214,13 @@ $("#email").on('mouseout', function(){
 // 로드페이지
 $(window).on('load', function(){
     var i = 0;
-    var timer = setInterval(add, 40)
+    var timer = setInterval(add, 30)
 
     function add(){
         i++
         if (i>=100) {
             clearInterval(timer)
-            $('.introAni').delay(2000).fadeOut(0)
+            $('.introAni').delay(1000).fadeOut(0)
             // $('.introAni').animate({},1000, function(){
             //     $(this).hide()
             // })

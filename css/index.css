@@ -420,6 +420,10 @@ section {
     position: relative;
 }
 
+#sect2 .container .card1::after,
+#sect2 .container .card1::before {
+    border: none;
+}
 
 .container .card:hover::before {
     border: none;
@@ -937,7 +941,7 @@ section {
 .loading .bar{
     position: absolute;
     top:0%; left: 0;
-    animation: loading 4s linear;
+    animation: loading 3s linear;
     text-align: center;
     color: #fff;
     background-color: #bbbbbb;
